@@ -18,3 +18,50 @@ void main() {
     ),
   );
 }
+/* The pubspec.yaml 
+name: mycard
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/IMG-7777.PNG
+*/
+
+/*BUT IT IS BETTER IF we change the '- images/IMG-7777.PNG' into '- images/'. 
+Because the '- images/' means that I want to incorporate everything that´s inside the images folder into my project. So the pubspec.yaml is
+
+name: mycard
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+*/
