@@ -1,3 +1,8 @@
+/* A MaterialApp has a Scaffold. Indisde Scaffold has 3 children/widgets: backgroundColor, appBar and Center/body. These three widgets each have their own witgets. 
+The backgroundColor does not have one. The appBar has 2 witgets: title that is a text widget and backgroundColor that is a color widget. 
+The Center has an image widget and the image widget has a child that is NetworkImage. 
+
+*/
 import 'package:flutter/material.dart';
 
 void main() {
